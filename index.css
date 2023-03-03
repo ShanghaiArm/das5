@@ -1,0 +1,125 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: url("https://www.webex.com/content/dam/wbx/us/images/virtual-backgrounds/thumbs/Virtual_Background_1_thumb.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+    #bigdiv{
+        width: 80%;
+    height: 510px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    border: solid red;
+    background-size: cover;
+    
+    }
+   
+.parent {
+    width: 80%;
+    height: 500px;
+    border: solid;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+h1{
+    color: aqua;
+}
+
+#child1 {
+    width: 40%;
+    height: 400px;
+    color: orange;
+    border: solid;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+
+
+.child2 {
+    width: 40%;
+    height: 400px;
+    border: solid;
+    color: orange;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.child2a {
+   width: 60%;
+   height: 100px;
+   margin-top: 20px;
+   
+
+}
+
+.parent2 {
+    width: 80%;
+    height: 100px;
+    border: solid;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    background-color: blueviolet;
+}
+button {
+    width: 30%;
+    height: 50px;
+    border: solid;
+    
+    border-radius: 20px;
+    background-color: aqua;
+}
+#inp {
+    width: 30%;
+    height: 40px;
+    border: solid  aqua;
+    border-radius: 20px;
+    background-color:black;
+}
+
+#parent3{
+    width: 80%;
+    height: 510px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    border: solid red;
+    
+}
+#f{
+    width: 49%;
+    height: 250px;
+    margin: auto;
+  
+}
+#t{
+    width: 49%;
+    height: 250px;
+    margin: auto;
+   
+}
+#th{
+    width: 49%;
+    height: 250px;
+    margin: auto;
+   
+}
+#fo{
+    width: 49%;
+    height: 250px;
+    margin: auto;
+   
+}
